@@ -65,7 +65,7 @@ Go to <http://localhost:3000/users>
 
 - See [app/models/audit.rb](app/models/audit.rb)
 - See [app/controllers/audits_controller.rb](app/controllers/audits_controller.rb)
-- See [app/config/routes.rb](app/config/routes.rb)
+- See [config/routes.rb](config/routes.rb)
 
 Note that the error is caused by this piece of code:
 
