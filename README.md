@@ -58,7 +58,7 @@ $ rails db:migrate
 
 ### Step 6. Create a couple of users
 
-Go to <http://localhost:3000/users>
+- Go to <http://localhost:3000/users>
 
 
 ### Step 7. Create audits model and controller
@@ -95,10 +95,5 @@ end
 
 ### Step 8. Download a CSV
 
-Go to <http://localhost:3000/audits.csv>
-
-And get the error
-
-```
-Polymorphic association does not support to compute class.
-```
+- Go to <http://localhost:3000/audits.csv>
+- And get the error `Polymorphic association does not support to compute class.`
