@@ -33,3 +33,25 @@ $ rails g scaffold user name:string email:string
 $ rails db:migrate
 ```
 
+
+4. Install audited
+
+```shell
+$ rails generate audited:install
+$ rails db:migrate
+```
+
+5. Update `User` model
+
+See [app/models/user.rb](app/models/user.rb)
+
+
+6. Create a couple of users
+
+Go to <http://localhost:3000/users>
+
+
+7. Download a CSV
+
+Go to <http://localhost:3000/users.csv>
+
