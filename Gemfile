@@ -8,6 +8,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 gem 'jbuilder', '~> 2.5'
 gem 'comma'
+gem 'audited'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
