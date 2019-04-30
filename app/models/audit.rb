@@ -1,17 +1,18 @@
 class Audit < Audited.audit_class
-
-  # --- CSV Generation
-
   comma do
     id
     version
     created_at
     auditable_id
     auditable_type
-    auditable identity: 'Auditable name'
     action
     user_id
-    user name: 'User name'
     audited_changes
+
+    # These lines are the ones causing the error
+    # - Without them, the CSV generation works
+    # - With them, and with comma 4.2.0, the CSV generation works
+    auditable identity: 'Auditable name'
+    user name: 'User name'
   end
 end
