@@ -9,6 +9,12 @@ Usage
 3. Go to <http://localhost:3000/audits.csv>
 4. Get the error
 
+Optional verification:
+
+1. Update the Gemfile to use version 4.2.0
+2. Restart the server and go to <http://localhost:3000/audits.csv>
+3. See it is downloading a CSV as expected
+
 
 Creating this Demo
 --------------------------------------------------
