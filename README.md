@@ -1,6 +1,15 @@
 Comma Bug Demo
 ==================================================
 
+Usage
+--------------------------------------------------
+
+1. Clone the repository
+2. Run `rails server -b 0.0.0.0`
+3. Go to <http://localhost:3000/audits.csv>
+4. Get the error
+
+
 Creating this Demo
 --------------------------------------------------
 
@@ -85,7 +94,7 @@ end
 
 8. Download a CSV
 
-Go to <http://localhost:3000/users.csv>
+Go to <http://localhost:3000/audits.csv>
 
 And get the error
 

@@ -9,10 +9,9 @@ class Audit < Audited.audit_class
     user_id
     audited_changes
 
-    # These lines are the ones causing the error
-    # - Without them, the CSV generation works
-    # - With them, and with comma 4.2.0, the CSV generation works
-    auditable identity: 'Auditable name'
-    user name: 'User name'
+    # This lines is the one causing the error
+    # - Without it, the CSV generation works
+    # - With it, and with comma 4.2.0, the CSV generation works
+    auditable name: 'Auditable name'
   end
 end
